@@ -7,7 +7,7 @@ function read_query( packet )
  
      pconn = proxy.connection.client.default_db
      ---debug print
-     ---print "if works"
+     ---print(">>> pconn = " .. pconn)
 
      if pconn == "<dbname>" then
         ---debug print
